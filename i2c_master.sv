@@ -1,4 +1,4 @@
-module i2c_ctrl #(
+module i2c_master #(
     START_DURATION=8'h1E,
     DATA_SETUP_DELAY=8'h0,
     DATA_HOLD_DELAY=8'h1E,
