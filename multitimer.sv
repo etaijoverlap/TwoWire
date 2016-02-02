@@ -1,3 +1,11 @@
+// i2c_master, a flexible and (hopefully) easy to use I2C busmaster core.
+// (c) 2015 Franz Schanovsky <franz.schanovsky@gmail.com> 
+// 
+// This software is licensed under the EUPL V 1.1
+//
+// This software is provided "as is" without warranty of any kind, see the 
+// respective section in the EUPL. USE AT YOUR OWN RISK.
+
 module multitimer #(
     TIMER_WIDTH=8,
     INTERRUPTS=1

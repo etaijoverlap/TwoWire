@@ -1,3 +1,11 @@
+// avli2c_eeprom, an avalon interface for a 24LC02B I2C EEPROM. Uses the i2c_master core.
+// (c) 2015 Franz Schanovsky <franz.schanovsky@gmail.com> 
+// 
+// This software is licensed under the EUPL V 1.1
+//
+// This software is provided "as is" without warranty of any kind, see the 
+// respective section in the EUPL. USE AT YOUR OWN RISK.
+
 module avli2c_address_data_buffer(
     input  logic        clock_i,
     input  logic        reset_i,
